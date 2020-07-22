@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,7 +17,7 @@ header nav ul {
 }
 
 header nav ul li {
-  float: left;
+  float: right;
 }
 
 header nav ul li a {
@@ -30,20 +31,26 @@ header nav ul li a:hover {
   background: #75acec;
 }
 
-.lugares div img {
+img {
   width: 300px;
+}
+
+.lugares,
+.lugar_uno,
+.lugar_dos,
+.lugar_tres,
+img h2 p {
+  padding: 20px 20px;
 }
 
 .lugares {
   width: 50%;
   margin: auto;
- 
+}
+.lugar_uno,
+.lugar_dos,
+.lugar_tres {
+  background: #fff;
+  margin: 30px 30px;
 }
 
-.lugares div {
-  background:#fff;
-  padding: 20px 20px;
-  display: flex;
-  align-items: flex-start;
-  margin: 20px 20px;
-}
