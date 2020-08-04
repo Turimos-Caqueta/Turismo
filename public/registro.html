@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="icon" type="image/png" href="imagenes/logo.png" />
+  <title>REGISTRO</title>
+  <meta charset="UTF-8" />
+  
+
+</head>
+
+<body>
+  <section class="registro">
+    <h4>Registro</h4>
+    <input class="controles" type="text"  id="nombre_uno" placeholder="Ingrese su  Primer Nombre" />
+    <input class="controles" type="text"  id="nombre_dos" placeholder="Ingrese su Segundo Nombre" />
+    <input class="controles" type="text"  id="apellido_uno" placeholder="Ingrese su Primer Apellido" />
+    <input class="controles" type="text"  id="apellido_dos" placeholder="Ingrese su Segundo Apellido" />
+    <input class="controles" type="text"  id="telefono" placeholder="Ingrese Numero Telefonico" />
+    <input class="controles" type="email"  id="correo" placeholder="Ingrese su Correo" />
+    <input class="controles" type="password"  id="clave" placeholder="Ingrese su Contraseña" />
+    <input class="controles" type="password"  id="clave_confirmada" placeholder="Confirme su Contrseña" />
+    <input class="boton" onclick="Registrar()" type="submit" value="Registrar" />
+  </section>
+
+
+  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-firestore.js"></script>
+  <script src="java/inicio.js"></script>
+</body>
+
+</html>
